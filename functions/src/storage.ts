@@ -1,10 +1,10 @@
 import * as functions from "firebase-functions";
-import * as admin from "firebase-admin";
+// import * as admin from "firebase-admin";
 
 import * as gcs from "@google-cloud/storage";
 const storage = new gcs.Storage();
 
-import * as fs from "fs-extra";
+// import * as fs from "fs-extra";
 
 import { tmpdir } from "os";
 import { join, dirname } from "path";
